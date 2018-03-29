@@ -1,0 +1,6 @@
+from random import randint
+## x is the number of sides the die has
+## y is the number of times you want to roll the die
+def dice_roller(x, y):
+    rolls = [randint(1,x) for i in range(y)]
+    return print(rolls, sum(rolls))
