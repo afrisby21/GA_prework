@@ -1,0 +1,11 @@
+##magic 8-ball
+import random
+
+question = input("What is your question?")
+think = "Hmmm...let me think..."
+responses = ["Yes", "No", "Perhaps", "Try Again", "Not Advisable", "Go For It"]
+def zoltan_answer():
+    print(think)
+    answer = random.choice(responses)
+    return answer
+zoltan_answer()
